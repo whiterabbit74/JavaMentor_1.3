@@ -38,9 +38,6 @@
     .mainnav__list{
         padding: 10px 0 10px 15px;
     }
-    .mainnav__item--mobile-hidden{
-        display: inline;
-    }
 }
 @media (min-width: 1120px) {
 

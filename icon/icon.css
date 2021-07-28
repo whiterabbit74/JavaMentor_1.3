@@ -4,32 +4,32 @@
     height: 40px;
 }
 
-.icon_type_menu{
+.icon--type--menu{
     background-image: url("../img/burger.svg");
 }
 
-.icon_type_logo{
+.icon--type--logo{
     background-image: url("../img/logo.svg");
     width: 98px;
     height: 52px;
 }
 
-.icon_type_phone{
+.icon--type--phone{
     background-image: url("../img/call.svg");
 }
 
-.icon_type_message{
+.icon--type--message{
     background-image: url("../img/chat.svg");
 }
 
-.icon_type_login{
+.icon--type--login{
     background-image: url("../img/profile.svg");
 }
 
-.icon_type_repair{
+.icon--type--repair{
     background-image: url("../img/repair.svg");
 }
 
-.icon_type_status{
+.icon--type--status{
     background-image: url("../img/checkstatus.svg");
 }
