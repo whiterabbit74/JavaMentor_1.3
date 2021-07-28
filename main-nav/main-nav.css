@@ -38,13 +38,13 @@
     .mainnav__list{
         padding: 10px 0 10px 15px;
     }
-
-}
-@media (min-width: 1120px) {
-
     .mainnav__item--mobile-hidden{
         display: inline;
     }
+}
+@media (min-width: 1120px) {
+
+
     .mainnav__list {
         flex-wrap: wrap;
     }
