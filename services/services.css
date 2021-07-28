@@ -16,11 +16,13 @@
     content: '';
     position: absolute;
     left: 0px;
-    width: 4px;
+    width: 2px;
     height: 40px;
     top: 24px;
     background: #41F6D7;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-right: 2px solid #41F6D7;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .services__content{
