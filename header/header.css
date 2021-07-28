@@ -1,20 +1,13 @@
-
-
-
 .header{
     background-color: #fff;
     padding: 15px 0;
     border-bottom: 1px solid #D9FFF5;
-
 }
 
 .header__items{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.header__logo{
-
 }
 
 .header__separator{
@@ -30,13 +23,11 @@
     .header__items{
         justify-content: flex-end;
     }
-    .header__separator, .header__phone-icon, .header__message-icon, .header__login-icon{
-        display: block;
 
-    }
     .header__menu-icon, .header__logo, .header__separator,
     .header__phone-icon, .header__message-icon,
     .header__login-icon, .header__request-icon, .header__status-icon{
+        display: block;
         margin-left:20px;
     }
     .header__logo {

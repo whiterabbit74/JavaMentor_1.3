@@ -10,15 +10,14 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'TT Lakes';
-    src: url('fonts/TTLakes-DemiBold.eot');
-    src: local('TT Lakes DemiBold'), local('TTLakes-DemiBold'),
-    url('fonts/TTLakes-DemiBold.eot?#iefix') format('embedded-opentype'),
-    url('fonts/TTLakes-DemiBold.woff') format('woff'),
-    url('fonts/TTLakes-DemiBold.ttf') format('truetype');
-    font-weight: 600;
+    src: url('fonts/TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+    url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTLakes-Medium.woff') format('woff'),
+    url('fonts/TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -37,9 +36,6 @@ body{
     font-family: "TT Lakes",  sans-serif;
     margin: 0;
 }
-
-
-
 
 
 @media (min-width: 1120px) {
