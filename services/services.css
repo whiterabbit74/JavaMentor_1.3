@@ -1,0 +1,102 @@
+.services{
+    background-color:#F8F8F8;
+    color: #1B1C21;
+}
+
+.services__title{
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    padding: 24px 16px 0 ;
+    position: relative;
+    font-weight: bold;
+}
+
+.services__title::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 4px;
+    height: 40px;
+    top: 24px;
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.services__content{
+    display: flex;
+    flex-direction: column;
+}
+.services__text{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding: 0 16px;
+}
+.service__more{
+    display: block;
+    content: 'Читать далее';
+    background: url(../img/read-next.svg) no-repeat 10px 20px;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.services__img img{
+    max-width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .services__content{
+        flex-direction: row;
+    }
+    .services__title,.services__text{
+        padding-left: 25px;
+    }
+    .services__img {
+        flex: 0 0 45%;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media (min-width: 1120px) {
+    .services__header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    .services__status-icon, .services__repair-icon{
+        display: block;
+        margin-right: 25px;
+        color: #1B1C21;
+        text-decoration: none;
+        position: relative;
+    }
+    .services__title{
+        margin-right:auto;
+    }
+    .services__status-icon{
+        margin-left: 130px;
+    }
+    .services__status-icon::before{
+        content: 'Оставить заявку';
+        position: absolute;
+        top: 10px;
+        left: -135px;
+        white-space: nowrap;
+    }
+    .services__repair-icon::before{
+        content: 'Статус ремонта';
+        position: absolute;
+        top: 10px;
+        left: -135px;
+        white-space: nowrap;
+    }
+}
+
+

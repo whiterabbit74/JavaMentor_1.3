@@ -1,0 +1,41 @@
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon_type_menu{
+    background-image: url("../img/burger.svg");
+
+}
+
+.icon_type_logo{
+    background-image: url("../img/logo.svg");
+    width: 98px;
+    height: 52px;
+}
+
+.icon_type_phone{
+    background-image: url("../img/call.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.icon_type_message{
+    background-image: url("../img/chat.svg");
+
+}
+
+.icon_type_login{
+    background-image: url("../img/profile.svg");
+}
+
+.icon_type_repair{
+    background-image: url("../img/repair.svg");
+
+}
+
+.icon_type_status{
+    background-image: url("../img/checkstatus.svg");
+
+}
