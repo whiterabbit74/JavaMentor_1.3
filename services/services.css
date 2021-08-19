@@ -75,7 +75,8 @@
         align-items: flex-end;
         padding-top: 20px;
     }
-    .services__status-icon, .services__repair-icon{
+    .services__status-icon,
+    .services__repair-icon{
         display: block;
         margin-right: 25px;
         color: #1B1C21;

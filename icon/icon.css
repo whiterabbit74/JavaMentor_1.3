@@ -2,6 +2,11 @@
 .icon{
     width: 40px;
     height: 40px;
+
+}
+
+.icon:hover, .icon:active{
+    filter: opacity(75%);
 }
 
 .icon--type--menu{

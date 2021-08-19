@@ -24,9 +24,7 @@
         justify-content: flex-end;
     }
 
-    .header__menu-icon, .header__logo, .header__separator,
-    .header__phone-icon, .header__message-icon,
-    .header__login-icon, .header__request-icon, .header__status-icon{
+    .header__items * {
         display: block;
         margin-left:20px;
     }
